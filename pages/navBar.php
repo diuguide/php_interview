@@ -7,7 +7,7 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#mockSignUp">Mock Sign-up Form</a>
+              <a class="nav-link" href="#mockSignUp">Mock Employee Card</a>
             </li>
             <!-- <li class="nav-item">
               <a class="nav-link" href="#">Contact</a>

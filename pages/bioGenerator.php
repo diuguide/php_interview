@@ -74,7 +74,7 @@
                 <input type="radio" id="blue" name="color" value="blue" />
                 <label for="blue">Blue</label>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary">Create Bio</button>
             </form>
         </div>
         </div>

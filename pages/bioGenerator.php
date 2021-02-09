@@ -1,15 +1,33 @@
+<?php
+    $name = trim(htmlspecialchars($_POST["name"]));
+    $home = trim(htmlspecialchars($_POST["home"]));
+    $hobby = trim(htmlspecialchars($_POST["hobby"]));
+    $color = trim(htmlspecialchars($_POST["color"]));
+    if($color === "red") {
+        $color_response = "Red is ok, I prefer Green.";
+    }elseif($color === "green"){
+        $color_response = "Green is also my favorite color.";
+    }elseif($color === "blue"){
+        $color_response = "Blue is the color of the ocean.";
+    }else{
+        $color_response = "";
+    }
+?>
+
 <div class="row" id="bioGenerator">
     <div class="col">
         <div class="row">
         <div class="col-6 mx-auto">
             <h3>
             Hello World! My name is
-            <?=$_POST["name"];?>. I am from
-            <?=$_POST["home"];?>. I love to
-            <?=$_POST["hobby"];?>
+            <?=$name;?>. I am from
+            <?=$home;?>. I love to
+            <?=$hobby;?>
             in my free time. My favorite color is
-            <?=$_POST["color"];?>
+            <?=$color;?>
             </h3>
+            <br>
+            <h3><?=$color_response;?></h3>
         </div>
         </div>
         <hr />

@@ -11,7 +11,7 @@
             </div>
             <div class="row">
             <div class="col-6 mx-auto">
-              <form method="post">
+              <form method="post" action="./pages/employeeCard.php">
                 <div class="mb-3">
                   <input
                     type="text"

@@ -15,19 +15,23 @@
   </head>
   <body>
     <?php
-$fName = trim(htmlspecialchars($_POST["fName"]));
-$lName = trim(htmlspecialchars($_POST["lName"]));
-$address = trim(htmlspecialchars($_POST["address"]));
-$position = trim(htmlspecialchars($_POST["position"]));
-
-?>
+      $fName = trim(htmlspecialchars($_POST["fName"]));
+      $lName = trim(htmlspecialchars($_POST["lName"]));
+      $address = trim(htmlspecialchars($_POST["address"]));
+      $position = trim(htmlspecialchars($_POST["position"]));
+    ?>
     <div class="container">
       <div class="row">
         <div class="col-6">
           <div class="card">
-            <div class="card-header"><h1><?=$fName." ".$lName?></h1></div>
+            <div class="card-header">
+              <h1><?=$fName." ".$lName?></h1>
+            </div>
             <div class="card-body">
-              <h5 class="card-title">Job Title: <?=$position?></h5>
+              <h5 class="card-title">
+                Job Title:
+                <?=$position?>
+              </h5>
               <p class="card-text">
                 <?=$address?>
               </p>

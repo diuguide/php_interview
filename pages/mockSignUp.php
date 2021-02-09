@@ -1,3 +1,4 @@
+
 <div class="row" id="mockSignUp">
         <div class="col mx-auto">
           <div class="row">
@@ -46,7 +47,7 @@
                     placeholder="Job Title"
                   />
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-primary">Create Card</button>
               </form>
             </div>
           </div>

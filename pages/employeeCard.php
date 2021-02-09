@@ -14,18 +14,24 @@
     <title>Document</title>
   </head>
   <body>
+    <?php
+$fName = trim(htmlspecialchars($_POST["fName"]));
+$lName = trim(htmlspecialchars($_POST["lName"]));
+$address = trim(htmlspecialchars($_POST["address"]));
+$position = trim(htmlspecialchars($_POST["position"]));
+
+?>
     <div class="container">
       <div class="row">
         <div class="col-6">
           <div class="card">
-            <div class="card-header">Featured</div>
+            <div class="card-header"><h1><?=$fName." ".$lName?></h1></div>
             <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
+              <h5 class="card-title">Job Title: <?=$position?></h5>
               <p class="card-text">
-                With supporting text below as a natural lead-in to additional
-                content.
+                <?=$address?>
               </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="../index.php" class="btn btn-primary">Back to form</a>
             </div>
           </div>
         </div>

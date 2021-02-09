@@ -9,9 +9,9 @@
             <li class="nav-item">
               <a class="nav-link" href="#mockSignUp">Mock Sign-up Form</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link" href="#">Contact</a>
-            </li>
+            </li> -->
           </ul>
         </div>
       </div>
